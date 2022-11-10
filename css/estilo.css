@@ -23,6 +23,7 @@ header {
     font-family: 'Acme', serif;
     font-size: 30px; color: red;
 }
+
 #nav-menu {
     display: flex;
     font-family: 'Rubik', sans-serif;
@@ -69,10 +70,12 @@ main {
     width: 100%;
     position: absolute;
     top: 80px;
+
 }
 .main-mensaje {
     margin: 30px;
-    font-family: 'Acme', serif;
+    max-width: 500px;
+    font-family: 'Inter', serif;
 }
 .main-mensaje p {
     margin: 5px;
@@ -81,7 +84,7 @@ main {
     font-weight: bold;
 }
 .main-mensaje p1{
-    margin: 5vh;
+    margin: 5px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -110,7 +113,7 @@ main {
 }
 #piechart{
     position: absolute;
-    top: 200px;
+    top: 300px;
     width: 700px;
     height: 350px;
 }
@@ -118,7 +121,7 @@ main {
     position: fixed;
     justify-content: space-around;
     z-index: 0;
-   left: 115px;
+   left: 6%;
     width: 250px;
     height: 80px;
 }
