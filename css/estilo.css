@@ -116,8 +116,9 @@ main {
 }
 #flecha{
     position: fixed;
+    justify-content: space-around;
     z-index: 0;
-    left: 115px;
+   left: 115px;
     width: 250px;
     height: 80px;
 }

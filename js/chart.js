@@ -16,7 +16,7 @@ function drawChart() {
         title: 'Condicion de empleo en Universitarios y Recien Egresados',
         backgroundColor:"transparent",
         is3D: true,
-        fontFamily: "Acme",
+        fontFamily: "Inter",
 
 
     };
