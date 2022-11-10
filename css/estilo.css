@@ -19,6 +19,7 @@ header {
     color: white;
 }
 #header-logo {
+    z-index: 1;
     font-family: 'Acme', serif;
     font-size: 30px; color: red;
 }
@@ -32,6 +33,7 @@ header {
     list-style: none; color: black;
 }
 #nav-menu li a {
+    font-family: 'Acme', serif;
     color: black;;
     text-decoration: none;
     font-size: 14px;
@@ -60,7 +62,7 @@ main {
 
 }
 .container {
-    background-color: blanchedalmond;
+    background-color: white;
     display: flex;
     justify-content: space-around;
     height: 80vh;
@@ -70,7 +72,7 @@ main {
 }
 .main-mensaje {
     margin: 30px;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Acme', serif;
 }
 .main-mensaje p {
     margin: 5px;
@@ -105,4 +107,17 @@ main {
     .main-mensaje p {
         font-size: 14px;
     }
+}
+#piechart{
+    position: absolute;
+    top: 200px;
+    width: 700px;
+    height: 350px;
+}
+#flecha{
+    position: fixed;
+    z-index: 0;
+    left: 115px;
+    width: 250px;
+    height: 80px;
 }
