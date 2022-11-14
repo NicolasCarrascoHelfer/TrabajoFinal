@@ -80,6 +80,7 @@ main {
     font-family: 'Inter', serif;
 }
 .main-mensaje p {
+    font-family: 'Inter', serif;
     z-index: 1;
     margin: 5px;
     font-size:50px;
@@ -87,6 +88,7 @@ main {
     font-weight: bold;
 }
 .main-mensaje p1{
+    font-family: 'Inter', serif;
     z-index: 1;
     margin: 5px;
     font-size: 20px;
@@ -132,8 +134,25 @@ main {
 }
 #fondo{
     position: fixed;
-    right: 5px;
+    right: 15%;
     z-index: 0;
+
+}
+#android{
+    position: fixed;
+    right: 27%;
+    z-index: 1;
+    top: 500px;
+    width: 180px;
+    height: 50px;
+}
+#apple{
+    position: fixed;
+    right: 27%;
+    z-index: 1;
+    top: 450px;
+    width: 180px;
+    height: 50px;
 
 }
 
