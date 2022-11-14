@@ -1,15 +1,16 @@
-
 * {
     margin: 0px;
     padding: 0px;
     /*border: 1px solid blue;*/
 }
+
 header {
     position: fixed;
     width: 100%;
     top: 0px;
     z-index: 1;
 }
+
 #header-nav {
     display: flex;
     justify-content: space-around;
@@ -19,6 +20,7 @@ header {
     font-weight: bold;
     color: white;
 }
+
 #header-logo {
     z-index: 2;
     font-family: 'Acme', serif;
@@ -61,6 +63,7 @@ header {
 
 /* Main */
 main {
+
 
 }
 .container {
@@ -137,7 +140,6 @@ main {
     position: fixed;
     right: 15%;
     z-index: 0;
-
 }
 #android{
     position: fixed;
